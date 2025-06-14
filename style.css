@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: fit-content;
+    padding: 10px;
+    background-color: #23262e;
+}
+
+main .result {
+    background-color: #3a3f77;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+main .buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.buttons .con_1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.con_1 button {
+    width: 40px;
+    border-radius: 10px;
+    background-color: #414357;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.con_1 button:hover {
+    background-color: #a9aec4;
+}
+
+.buttons .con_2 div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.con_2 div button {
+    width: 40px;
+    border-radius: 10px;
+    background-color: #f89f13;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.con_2 div button:hover {
+    background-color: #f5b348;
+}
+
+.btnEqual {
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #b1b3b2;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
